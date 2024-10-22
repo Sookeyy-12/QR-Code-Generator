@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import QRCode from 'react-qr-code';
 
-const QR = () => {
+const QRgen = () => {
     const [inputText, setInputText] = useState('');
 
     return (
@@ -26,4 +26,4 @@ const QR = () => {
     );
 };
 
-export default QR;
+export default QRgen;

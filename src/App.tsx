@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-import QR from './components/QR'
+import QRgen from './components/QRgen';
 
 function App() {
   return (
     <>
       <h1>QR Code Generator</h1>
-      <QR />
+      <QRgen />
     </>
   )
 }
 
-export default App
+export default App;

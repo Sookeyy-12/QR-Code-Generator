@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: linear-gradient(270deg, #421004, #48043b, #072357, #064b47);
@@ -13,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -30,6 +30,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -58,9 +59,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -87,15 +90,18 @@ button:focus-visible {
   margin: 0.2rem;
 }
 
-.qr-generator-container {
+.qr-generator-container,
+.qr-reader-container {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(32, 32, 32);
   padding: 2rem;
-  margin: 1 rem;
+  margin: 1rem;
   border-radius: 1rem;
+  height: 30rem;
+  width: 25rem;
 }
 
 .qr-code-container {
@@ -104,4 +110,20 @@ button:focus-visible {
   background-color: white;
   aspect-ratio: 1;
   width: 22rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+
+.gen-container {
+  margin: 1rem;
+}
+
+.read-container {
+  margin: 1rem;
 }

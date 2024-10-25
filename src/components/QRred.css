@@ -1,0 +1,29 @@
+.qr-reader-container {
+    border: 2px solid rgb(253, 235, 235);
+    border-radius: 10px;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.file-input {
+    margin: 10px;
+    padding: 5px;
+    background-color:rgba(204, 242, 242, 0.66);
+    color: black;
+    border-radius: 5px;
+
+}
+
+.qr-result {
+    background-color: rgba(217, 218, 219, 0.92);
+    margin: 7px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}

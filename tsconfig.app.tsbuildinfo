@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/qrgen.tsx"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/qrgen.tsx","./src/components/qrred.tsx","./src/types/qrcode-reader.d.ts"],"version":"5.6.3"}

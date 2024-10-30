@@ -119,7 +119,6 @@ button:focus-visible {
 
 @media (min-width: 250px) {
   :root {
-    border: 1px solid white;
     position: absolute;
   }
   .container {

@@ -116,7 +116,32 @@ button:focus-visible {
   margin: 1rem;
 }
 
+
+@media (min-width: 250px) {
+  :root {
+    border: 1px solid white;
+    position: absolute;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .qr-generator-container,
+  .qr-reader-container {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .qr-code-container {
+    width: 18rem;
+  }
+}
+
 @media (min-width: 768px) {
+  :root {
+    position: static;
+  }
   .container {
     flex-direction: row;
     justify-content: space-between;

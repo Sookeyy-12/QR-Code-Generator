@@ -41,6 +41,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 h1 {
@@ -115,16 +117,43 @@ button:focus-visible {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 0;
   width: 100%;
 }
 
-.gen-container {
+.gen-container,
+.read-container {
   margin: 1rem;
 }
 
-.read-container {
-  margin: 1rem;
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .qr-generator-container,
+  .qr-reader-container {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .qr-code-container {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .qr-generator-container,
+  .qr-reader-container {
+    width: 25rem;
+    height: 30rem;
+  }
+
+  .qr-code-container {
+    width: 22rem;
+  }
 }
